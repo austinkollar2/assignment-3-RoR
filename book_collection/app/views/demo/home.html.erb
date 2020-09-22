@@ -1,1 +1,27 @@
-<h1>Hello World from home.</h1>
+<h1>Welcome to the Book Collection homepage!</h1>
+<br />
+
+<!-- Add new book link -->
+<%= link_to('Add new book', {:action => 'add_new_book',
+:page => 2, :id => 20}) %> <br/>
+<!-- View book details link -->
+<%= link_to('View book details', {:action => 'book_details',
+:page => 3, :id => 30}) %> <br/>
+<!-- Update book details link -->
+<%= link_to('Update book details', {:action => 'update_book',
+:page => 4, :id => 40}) %> <br/>
+<!-- Delte a book link -->
+<%= link_to('Delete a book', {:action => 'delete_book',
+:page => 5, :id => 50}) %> <br/>
+
+
+
+<!-- Example: Embedded Ruby code
+<% target = "world" %>
+<%= "Hello #{target}" %>
+<br /> -->
+
+<!-- Example: alternative to puts which just prints to console
+<% @array.each do |n| %>
+<%= n %> <br />
+<% end %> -->

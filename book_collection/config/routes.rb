@@ -1,11 +1,16 @@
 Rails.application.routes.draw do
 
-  root 'demo#index'
+  root 'demo#home'
 
   # simple route
   get 'demo/index'
 
   get 'demo/home'
+  get 'demo/add_new_book'
+  get 'demo/book_details'
+  get 'demo/update_book'
+  get 'demo/delete_book'
+
 
   # default route
   # get ':controller(/:action(/:id))'
