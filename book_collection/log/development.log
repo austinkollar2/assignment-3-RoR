@@ -1570,3 +1570,10 @@ Processing by DemoController#add_new_book as HTML
 Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 714)
 
 
+Started GET "/" for ::1 at 2020-09-21 23:54:26 -0500
+Processing by DemoController#home as HTML
+  Rendering demo/home.html.erb
+  Rendered demo/home.html.erb (Duration: 3.2ms | Allocations: 1287)
+Completed 200 OK in 19ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3196)
+
+
