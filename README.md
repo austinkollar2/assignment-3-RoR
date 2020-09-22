@@ -1,6 +1,11 @@
-# README for book_collection application
+# README for Ruby on Rails "book_collection" application
 
-Copy this repository using 'git clone <this_url>'' onto your local device
-Open your terminal and run 'rails server' or 'rails s' to run this application
-on the webserver https://localhost:3000.
-This will take you to the home page of this web application.
+This app can be launched via heroku at https://assignment3rubyonrails.herokuapp.com/
+
+Or, if you want to copy the files and run it on a server locally:
+$ git clone <this_URL>    ~> clone this repository to a directory on your local machine
+$ cd <YOUR_PATH>          ~> navigate to the location of that directory
+$ rails s                 ~> run the rails project on a local server
+Then rails will generate some output to let you know your project is running
+
+This app runs on a local host at https://localhost:3000
